@@ -57,7 +57,7 @@
     if(DiffrencesOfStrings!=0&&DiffrencesOfStrings%2==0){
         for(i=0;i<(length+1)/2;i++){
             if(result[i]!=result[0]||result[length-i]!=result[0]){if(DiffrencesOfStrings>=2+[k integerValue]){continue;}
-                result[i]=result[0];result[length-i]=result[0];DiffrencesOfStrings+=2;
+                result[i]=[NSNumber numberWithInteger:9];result[length-i]=[NSNumber numberWithInt: 9];DiffrencesOfStrings+=2;
             }
         }
         
